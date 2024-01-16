@@ -421,4 +421,214 @@ ul li {
     font-family: Inter;
     padding-bottom: 50px;
 }
+/* responsiv is start here  */
+/* for mobile view  */
+/* navbar  */
+@media screen and (max-width:600px) {
+.nav-manu-bar{
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 80vh;
+    position: fixed;
+    top: 0;
+    right: -100%;
+    z-index: 100;
+    background-color: rgb(255, 255, 255);
+    transition: all .2s ease-in-out;
+}
+.nav-manu-bar a{
+    padding: 10px;
+}
+.nav-manu-bar , .close-menu{
+    display: block;
+}
+/* banner section  */
+
+.banner {
+    width: 100%;
+    height: 60vh;
+}
+
+.banner-title {
+    padding-top: 32px;
+    font-size: 1.375rem;
+
+}
+
+.banner-description {
+    margin: 10px auto;
+    width: 304px;
+    font-size: 1rem;
+    margin-bottom: 32px;
+}
+
+.banner-input {
+    display: block;
+    width: 80%;
+    height: 40vh;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+.banner-input-text,
+.banner-input-drop {
+    max-width: 255px;
+    margin-top: 20px;
+    max-height: 52px;
+    padding-left: 16px;
+}
+.btn-praimary {
+    padding: 16px;
+    max-width: 255px;
+    max-height: 52px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+/* populer travels  */
+
+.popular {
+    padding-top: 1.5rem;
+    max-width: 600px;
+    margin: 0 auto;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.popular-img img {
+    width: 100%;
+    padding: 24px;
+}
+
+.popular-content-title {
+    font-size: 1.25rem;
+    margin: 24px;
+}
+
+.popular-content-description {
+    width: 350px;
+    margin: 24px;
+}
+
+.popular-content-list {
+    width: 350px;
+    margin: 24px;
+}
+
+.popular-content button {
+    margin-left: 24px;
+}
+
+/* destination section */
+.destination-img img {
+    height: 200px;
+    padding: 10px;
+}
+
+.destination-img{
+    width: 100%;
+    margin: 0 auto;
+    display: grid;
+    text-align: center;
+    justify-content: center;
+    grid-template-areas:
+        "Maldives"
+        "Indonesia"
+        "Srilanka"
+        "North-America"
+        "Kashmir"
+        "Bangladesh"
+        "Bandarban";
+    gap: 24px;
+}
+
+/* why choise section  */
+.choise{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.choise-hotel,
+.choise-World-Class,
+.choise-guarantee {
+    width: 335px;
+    height: 289px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+/* newsletter section */
+.newsletter {
+    padding-top: 4rem;
+    flex-direction: column;
+    gap: 24px;
+    margin-bottom: 5rem;
+    align-items: center;
+}
+
+.newsletter-content {
+    padding: 30px;
+    width: 335px;
+    height: 353px;
+}
+
+.newsletter-description {
+    width: 270px;
+}
+
+.newsletter-line {
+    width: 288px;
+}
+
+.newsletter-content-input {
+    width: 288px;
+    height: 52px;
+}
+
+.newsletter-btn {
+    width: 288px;
+    height: 52px;
+}
+.newsletter-img-btn {
+    width: 40%;
+    padding: 10px;
+    height: 40%;
+    bottom: 135px;
+    left: 200px;
+}
+.newsletter-img-title {
+    font-size: .9rem;
+}
+
+.newsletter-img-des {
+    font-size: 1.2rem;
+}
+.newsletter-img{
+    text-align: center;
+}
+
+.newsletter-img img {
+    width: 100%;
+    padding: 20px;
+}
+
+/* footer section */
+.footer .nav-logo {
+    padding-top: 3rem;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 16px;
+}
+
+.footer-description {
+    width: 300px;
+}
+
+.footer-line {
+    width: 300px;
+}
+
+}
 
